@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+.flex{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+
+
+.circle{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+}
+.red{
+    background-color: red;
+    top:0px
+
+}
+.yellow{
+    background-color: yellow;
+    top: 180px;
+}
+.green{
+    background-color: green;
+    top: 360px;
+}
